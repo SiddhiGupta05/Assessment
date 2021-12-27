@@ -1,0 +1,12 @@
+cy.visit(‘https://www.game.tv/’)
+cy.contains(‘Popular Games’).scrollTo(‘bottom’)
+cy.xpath(‘For first game in the table’).click({force:true}) //step1
+cy.visit(‘https://www.game.tv/’)
+
+So as I have worked on automation and for automation I have used Cypress as framework, so I have written the code in Cypress.
+
+So we will repeat these steps 20 times and we can’t use for loop in cypress 
+because of the async nature of cypress and similarly
+if we talk about printing a table it is also not possible to print table in cypress. 
+These formation of tables will be done manually when cypress is used. 
+But I know this can be achieved in Selenium but as of now I haven’t learned selenium and if I get chance to learn selenium then I will definitely learn selenium.
